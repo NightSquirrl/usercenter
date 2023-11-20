@@ -1,0 +1,16 @@
+# 线上配置文件
+# @author  <a href="https://soft-vault.com/">wahttools</a>
+#
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/whattools
+    username: root
+    password: 80233208
+  # session 失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
+
